@@ -111,7 +111,7 @@ def main(threshold_score):
             if predicted_score > threshold_score:
                 mark_attendance(predicted_name)
 
-        cv2.imshow("Webcam",img)
+        cv2.imshow("Facial Recognition Attendance Program",img)
         cv2.waitKey(1)
 
         # Pressing 'q' stops the video feed
