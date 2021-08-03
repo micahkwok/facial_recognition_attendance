@@ -24,7 +24,7 @@ The following python packages are required to run `facial_recognition.py`.
 ## Instructions
 
 1. Clone/fork this repository.
-2. Train, export and download the machine learning model from Teachable Machine. (insert image)
+2. Train, export and download the machine learning model from Teachable Machine ![](img/download_model.png)
 3. Unzip the downloaded `converted_keras` folder and replace the existing `converted_keras` folder in your cloned/forked repository. 
 4. Through your terminal run `python facial_recognition.py`. This will activate your webcam and the facial recognition attendance program.
 5. When finished, press q in the window showing the webcam feed. This will terminate the program. 
